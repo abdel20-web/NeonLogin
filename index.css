@@ -1,0 +1,161 @@
+html{
+    background: linear-gradient(to right,purple,red,orange,rgb(233, 169, 74))
+    
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin :0;
+  }
+  h1{
+    
+    margin-bottom: 3px;
+    
+  }
+  
+  #logIn{
+    text-align: center;
+    width: 350px;
+    height: 500px;
+    border-style:solid;
+    border-radius: 25px;
+    color: white;
+    font-family: arial;
+    box-shadow: 0 0 15px 5px white;
+    transition: 1s ease;
+  }
+  #logIn:hover{
+
+    transition: transform 1s ease-in-out;
+    transform: translateY(-10px );
+    
+  }
+  
+  
+  #username{
+    margin:0%;
+    margin-top: 70px;
+    width: 200px;
+    padding: 5px 10px;
+  }
+  #username:hover{
+    transition: transform 0.3s ease ;
+    transform: translateX(-5px);
+  }
+  #username:valid{
+    border-radius:10px ;
+    border: solid ;
+    border-color: green;
+  }
+  #username:focus:invalid{
+    border-radius: 10px ;
+    border: solid red;}
+  
+  #username:focus::placeholder{
+    transition: transform 1s ease-in-out;
+    transform: translateY(-25px);
+    font-size: 10px;
+    }
+  
+  
+  
+  
+  #email{
+    margin:0%;
+    margin-top: 40px;
+    width: 200px;
+    padding: 5px 10px;
+  }
+  #email:hover{
+    transition: transform 0.3s ease-in;
+    transform : translateX(-5px) ;
+  }
+  #email:focus:invalid{
+    border-radius: 10px;
+    border: red solid;
+  }
+  #email:valid{
+    border:2px solid green;
+    border-radius: 10px;
+  }
+  #email:focus::placeholder{
+    transition: transform 1s ease-in-out;
+    transform: translateY(-25px);
+    font-size: 10px;
+  }
+  
+  
+  
+  #password{
+    margin: 0%;
+    margin-top: 40px;
+    width: 200px;
+    padding: 5px 10px;
+
+  }
+  #password:hover{
+    transition: transform 0.3s ease-in;
+    transform: translateX(-5px);
+  }
+  #password:focus::placeholder{
+    transition: transform 1s ease-in-out;
+    transform: translateY(-25px);
+    font-size: 10px;
+    opacity: 1;
+
+  }
+
+  #submit{
+    background-color: #00b3ff;
+    margin: 0%;
+    margin-top: 40px;
+    width: 100px;
+    padding: 10px ;
+    border-radius: 10px;
+    border:#00b3ff;
+    font-family:Arial;
+    font-size: small;
+    color:white;
+    cursor:pointer;
+    background: linear-gradient(to right, rgb(210, 196, 6) 50%, #4382b6 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 1s;
+    
+  }
+  #submit:hover{
+    background-position: left;
+
+  }
+  #case{
+
+    background: linear-gradient(to right,purple 25%,red ,orange,rgb(233, 169, 74));
+    background: linear-gradient(to right,purple ,red ,orange ,rgb(233, 169, 74) );
+    border-radius: 15px;
+    height: 10px;
+    width: 100px; 
+    text-align: center;
+    margin: 0% auto;
+  }
+ 
+
+
+
+
+
+
+  
+
+  
+
+ 
+
+  
+
+
+
+
+
+  
